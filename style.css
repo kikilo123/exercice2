@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1440px;
+    background: url(images/6221822.jpg);
+    background-position: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.sedans img , .suvs img , .luxury img{
+    width: 60px;
+    height: 40px;
+    margin: 20px 0 10px 50px;
+}
+.sedans h1, .suvs h1 , .luxury h1{
+ color: white;
+ margin:15px 50px ;
+ font-family: "Lexend Deca", sans-serif;
+}
+.sedans p, .suvs p , .luxury p{
+    width: 200px;
+    margin: 15px 50px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 2px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.sedans .but{
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%) ;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 100px 0 0 50px;
+    cursor: pointer;
+    font-family: "Big Shoulders Display", sans-serif;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 1px;
+}
+.suvs .but{
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%) ;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 100px 0 0 50px;
+    cursor: pointer;
+    font-family: "Big Shoulders Display", sans-serif;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 1px;
+}
+
+
+.luxury .but{
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%) ;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 100px 0 0 50px;
+    cursor: pointer;
+    font-family: "Big Shoulders Display", sans-serif;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.sedans .but:hover,.suvs .but:hover,.luxury .but:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.sedans{
+background-color: hsl(31, 77%, 52%);
+width: 300px;
+height: 500px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 500px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 500px;
+}
+
